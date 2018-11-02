@@ -6,3 +6,6 @@ modprobe -r gim
 
 # 查看驱动加载情况
 lsmod | grep gim
+
+# 查看驱动是否加载异常
+dmesg | grep gim | grep error
