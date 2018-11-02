@@ -105,3 +105,5 @@ THE SOFTWARE
 
  - 2.0 (2018/9/30)
         Fix some issues for AMD S7150 series.
+		
+备注：如果主机原来有AMD的显卡，需要先卸载原有显卡驱动，然后重新生成小内核，再加载gim驱动
