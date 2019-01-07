@@ -15,3 +15,4 @@ chmod +x /etc/sysconfig/modules/gim_modules
 #should chmod, or will failed after reboot
 
 #reboot --unsafe
+#use IPMI
